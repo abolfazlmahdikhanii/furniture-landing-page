@@ -1,0 +1,19 @@
+$break_S: 640px;
+$break_M: 1024px;
+$break_L: 1280px;
+
+@mixin media($break) {
+  @if ($break==s) {
+    @media only screen and (min-width: $break_S) {
+      @content;
+    }
+  } @else if($break==m) {
+    @media only screen and (min-width: $break_M) {
+      @content;
+    }
+  } @else if($break==l) {
+    @media only screen and (min-width: $break_L) {
+      @content;
+    }
+  }
+}
