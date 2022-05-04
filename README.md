@@ -3,10 +3,10 @@
 Furniture landing page is a responsive landing page.
 
 Technology:
-.html
-.scss
-.js
-.AOS library (Animate on scroll library)
+- html
+- scss
+- js
+- AOS library (Animate on scroll library)
 
 ---------------------------------------
 
