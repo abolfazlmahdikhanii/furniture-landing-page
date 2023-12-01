@@ -24,7 +24,7 @@ body {
   background-color: var(--bg-color); }
 
 .container {
-  max-width: 140rem;
+  max-width: 152rem;
   overflow: hidden; }
 
 .header {
